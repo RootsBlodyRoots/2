@@ -6,7 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+   <link rel="stylesheet"
+   href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" 
+   integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" 
+   crossorigin="anonymous">
 
     <title>Sistema de Login</title>
   </head>
@@ -24,6 +27,94 @@
               </div>
           </section>
           
+          
+          
+          
+          <!--Formulário de Login-->
+          <section class="row"> 
+              
+              <div class="col-lg-4 offset-lg-4 bg-light rounded"
+                   id="caixaLogin"
+                   >
+                  
+                  <h2 class="text-center mt-2">
+                      
+                  Entrada
+                  
+                 </h2>
+                  
+                  <form>
+                      
+                      <div class="form-Group">
+                          
+                          <input type="text" name="nomeUsuário"
+                                 
+                                 class="form-control"
+                                 
+                                 placeholder="Nome do Usuário"
+                                 
+                                 required minlength="5"
+                                 >
+                                         
+                      </div> 
+                      
+                      
+                      
+                         <div class="form-Group">
+                          
+                          <input type="Password" name="Senha"
+                                 
+                                 class="form-control"
+                                 
+                                 placeholder="Senha"
+                                 
+                                 required minlength="5"
+                                 >
+                                         
+                      </div> 
+                      
+                      <div class="form-Group">
+                          
+                          <div class="custom-control checkBox">
+                              <input type="checkbox" name="lembrar"
+                                     id="checkLembrar"
+                                     class="custom-control-input">
+                              
+                              <label for="checkLembrar" class="custom-control-label">
+                                  Lembrar de min
+                                  </label>
+                          </div>
+                                         
+                      </div> 
+                      
+                     
+                      <a href="#" id="btnEsqueci"
+                         class="float-right">
+                          Esqueci a senha
+                      </a>
+                      
+              
+              
+              
+              
+              <div class="form-Group">
+                   
+                  <input type="submit" name="btnEntrar"
+                         id="btnEntrar"
+                         value=":: Entrar"
+                         class="btn-Primary btn-block">
+                  
+              </div>
+                  
+              <div class="form-Group">
+                  <p>
+                      Novo Usuário?
+                      <a href="#" id="btnRegistrar-se-Aqui ">
+                      registrar-se Aqui.
+                      </p>
+             </div>
+                  
+                  </form>
       </main>
       
     
